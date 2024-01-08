@@ -1,0 +1,84 @@
+/* body and buffer center all of the content on the page */
+body {
+    background-color: #FFBBBB;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.buffer {
+    flex: 1;
+}
+
+/* header, web-icon, and nav-tabs are for the navigation header */
+header {
+    background-color: #550000;
+    border: black solid 3px;
+    border-radius: 20px;
+    height: 50px;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+
+    font: 22px "Trebuchet MS", sans-serif;
+}
+
+.web-icon-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.web-icon-container > * {
+    background-color: white;
+}
+
+.nav-tabs-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.nav-tabs-container > a {
+    background-color: #FFBBBB;
+    display: inline-block;
+    border: black solid 3px;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+main {
+    background-color: #300000;
+    border: black solid 3px;
+    width: 960px;
+    min-height: 999px;
+    position: absolute;
+    margin-top: -20px;
+    z-index: -999;
+}
+
+/* misc site wide formatting */
+
+/* i hate the default link formatting*/
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
