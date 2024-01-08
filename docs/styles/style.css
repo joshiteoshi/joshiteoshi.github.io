@@ -1,4 +1,8 @@
 /* body and buffer center all of the content on the page */
+html {
+    font: 22px "Trebuchet MS", sans-serif;
+}
+
 body {
     background-color: #FFBBBB;
     display: flex;
@@ -11,6 +15,7 @@ body {
 }
 
 /* header, web-icon, and nav-tabs are for the navigation header */
+/* TODO: make width dynamic for header and body */
 header {
     background-color: #550000;
     border: black solid 3px;
@@ -19,8 +24,6 @@ header {
     width: 960px;
     display: flex;
     flex-direction: row;
-
-    font: 22px "Trebuchet MS", sans-serif;
 }
 
 .web-icon-container {
@@ -29,8 +32,16 @@ header {
     align-items: center;
 }
 
-.web-icon-container > * {
-    background-color: white;
+.web-icon-container > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.web-icon-container > div {
+    color: white;
+    margin-left: 10px;
 }
 
 .nav-tabs-container {
@@ -45,7 +56,7 @@ header {
     display: inline-block;
     border: black solid 3px;
     border-radius: 20px;
-    width: 120px;
+    max-width: 120px;
     text-align: center;
 }
 
@@ -53,10 +64,17 @@ main {
     background-color: #300000;
     border: black solid 3px;
     width: 960px;
-    min-height: 999px;
+    min-height: 720px;
     position: absolute;
     margin-top: -20px;
+    padding-top: 30px;
     z-index: -999;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    flex: 10;
 }
 
 /* misc site wide formatting */
@@ -81,4 +99,37 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
+}
+
+/* macOS traffic light cos i thought it looked cool */
+.traffic-light {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    margin-left: -40px;
+    margin-top: -25px;
+}
+
+.traffic-light > .red-light {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    margin: 4px 4px;
+    background-color: red;
+}
+
+.traffic-light > .org-light {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    margin: 4px 4px;
+    background-color: #FF7700;
+}
+
+.traffic-light > .grn-light {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    margin: 4px 4px;
+    background-color: #77FF00;
 }
