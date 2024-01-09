@@ -8,6 +8,7 @@
   <title>joshiteoshi</title>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/generic.css">
   <link rel="icon" type="image/x-icon" href="assets/smol.png">
 </head>
 
@@ -31,14 +32,14 @@
       <div class="buffer"></div>
       <div class="content">
 
-        <div class="bio-card">
+        <div class="card">
           <div class="traffic-light">
             <div class="red-light"></div>
             <div class="org-light"></div>
             <div class="grn-light"></div>
           </div>
           <div class="bio-content">
-            <img class="bio-img" src="assets/paper.png" alt="me.mp4">
+            <img class="bio-img" src="assets/paper.png" title="me.mp4">
             <p>
               &lt;bio&gt;<br>hi! i am joshua teo! 
               i am currently an undergraduate studying computer science in sutd. 
@@ -60,19 +61,21 @@
           </a>
         </div>
 
-        <div class="recent-header">
+        <div class="card">
           <div class="traffic-light">
             <div class="red-light"></div>
             <div class="org-light"></div>
             <div class="grn-light"></div>
           </div>
-          <p>
-            entry if is_recent(entry) else None
-          </p>
-          <p class="subtext">
-            # or something like that <br>
-            # i'm not a graphic designer
-          </p>
+          <div class="title">
+            <p>
+              entry if is_recent(entry) else None
+            </p>
+            <p class="subtitle">
+              # or something like that <br>
+              # i'm not a graphic designer
+            </p>
+          </div>
         </div>
 
       </div>

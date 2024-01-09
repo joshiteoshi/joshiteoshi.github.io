@@ -1,11 +1,3 @@
-.bio-card {
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 25px 40px;
-}
-
 .bio-img {
     width: 240px;
     height: 240px;
@@ -19,11 +11,6 @@
     font: 22px "", monospace;
 }
 
-.line-divider {
-    border: 2px solid white;
-    margin-bottom: 20px;
-}
-
 .my-stuff-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,26 +21,8 @@
 .my-stuff-buttons > a {
     background-color: white;
     border-radius: 20px;
+    border: black solid 3px;
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
-}
-
-.recent-header {
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 25px 40px;
-}
-
-.recent-header > p {
-    font: 28px "", monospace;
-    margin: 0px 0px;
-}
-
-.recent-header > .subtext {
-    font: 22px "", monospace;
-    color: #AAAAAA;
-    margin: 0px 0px;
 }

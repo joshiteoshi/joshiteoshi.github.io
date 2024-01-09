@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #FFBBBB;
+    background-color: #EAD196;
     display: flex;
     flex-direction: row;
     color: black;
@@ -17,7 +17,7 @@ body {
 /* header, web-icon, and nav-tabs are for the navigation header */
 /* TODO: make width dynamic for header and body */
 header {
-    background-color: #550000;
+    background-color: #7D0A0A;
     border: black solid 3px;
     border-radius: 20px;
     height: 50px;
@@ -52,7 +52,7 @@ header {
 }
 
 .nav-tabs-container > a {
-    background-color: #FFBBBB;
+    background-color: #EAD196;
     display: inline-block;
     border: black solid 3px;
     border-radius: 20px;
@@ -61,7 +61,7 @@ header {
 }
 
 main {
-    background-color: #300000;
+    background-color: #BF3131;
     border: black solid 3px;
     width: 960px;
     min-height: 720px;
@@ -99,37 +99,4 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
-}
-
-/* macOS traffic light cos i thought it looked cool */
-.traffic-light {
-    display: flex;
-    flex-direction: row;
-    padding: 10px 15px;
-    margin-left: -40px;
-    margin-top: -25px;
-}
-
-.traffic-light > .red-light {
-    height: 12px;
-    width: 12px;
-    border-radius: 6px;
-    margin: 4px 4px;
-    background-color: red;
-}
-
-.traffic-light > .org-light {
-    height: 12px;
-    width: 12px;
-    border-radius: 6px;
-    margin: 4px 4px;
-    background-color: #FF7700;
-}
-
-.traffic-light > .grn-light {
-    height: 12px;
-    width: 12px;
-    border-radius: 6px;
-    margin: 4px 4px;
-    background-color: #77FF00;
 }
