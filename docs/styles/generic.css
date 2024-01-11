@@ -46,6 +46,11 @@
     border-radius: 2px;
 }
 
+.inner-divider {
+    border: 2px solid #AAAAAA;
+    border-radius: 2px;
+}
+
 .title > p {
     font: 28px "", monospace;
     margin: 0px 0px;

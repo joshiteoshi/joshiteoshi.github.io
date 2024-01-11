@@ -64,7 +64,7 @@ main {
     background-color: #BF3131;
     border: black solid 3px;
     width: 960px;
-    min-height: 720px;
+    min-height: 100%;
     position: absolute;
     margin-top: -20px;
     padding-top: 30px;
@@ -75,6 +75,25 @@ main {
 
 .content {
     flex: 10;
+}
+
+footer {
+    background-color: #7D0A0A;
+    border: black solid 3px;
+    border-radius: 20px;
+    width: 960px;
+    position: absolute;
+    padding: 10px 0px;
+    bottom: -20px;
+    left: -2px;
+
+    text-align: center;
+    font-size: 18px;
+}
+
+footer > p {
+    margin: 0px 0px;
+    width: 100%;
 }
 
 /* misc site wide formatting */
